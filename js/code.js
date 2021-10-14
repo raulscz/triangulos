@@ -8,6 +8,8 @@ function generarTriangulo() {
         resultado += "<p>" + piramide + "<p>";
     }
     document.getElementById("tri").innerHTML = resultado;
+
+    //Otra forma de hacerlo
     /*for (var i = 1; i <= maxLenght; i++) {
         for (var j = 1; j <= i; j++) {
             document.write("*");
